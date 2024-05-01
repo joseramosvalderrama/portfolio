@@ -1,14 +1,11 @@
 import "./App.css";
-
+import Header from "./component/Header";
+import Body from "./component/Body";
 export default function App() {
   return (
-    <div className="flex flex-row">
-      <div className="basis-1/2">
-        <h1 className="text-3xl font-bold">José Manuel Ramos Valderrama</h1>
-      </div>
-      <div>
-        <text>Right side</text>
-      </div>
+    <div className="bg-gray-50">
+      <Header />
+      <Body />
     </div>
   );
 }
