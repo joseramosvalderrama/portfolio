@@ -10,7 +10,7 @@ export default function Header() {
         <h1 className="text-4xl font-extrabold text-gray-100">
           José Manuel Ramos Valderrama
         </h1>
-        <p className="text-gray-300">Fullstack Developer</p>
+        <p className="text-gray-300">Software Engineer</p>
       </div>
     </div>
   );
