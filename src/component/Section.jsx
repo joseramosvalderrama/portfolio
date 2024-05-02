@@ -3,7 +3,7 @@ import Card from "./Card";
 export default function Section(props) {
   const { title, cardList } = props;
   return (
-    <div className="pt-5 px-14 w-full">
+    <div className="pt-5 px-14">
       <h1 className="text-3xl font-bold text-gray-900">{title}</h1>
       {cardList.map((card) => (
         <Card
@@ -12,6 +12,7 @@ export default function Section(props) {
           period={card.period}
           description={card.description}
           techs={card.techs}
+          snap={card.snap}
         />
       ))}
     </div>

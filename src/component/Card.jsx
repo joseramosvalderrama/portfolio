@@ -1,24 +1,25 @@
 export default function Card(props) {
-  const { title, secondTitle, description, period, techs } = props;
+  const { title, secondTitle, description, period, techs, snap } = props;
   return (
-    <div className="m-5 flex flex-row">
-      <div className="basis-1/5 m-5 flex justify-center items-center">
-        <text className="text-gray-600">{period}</text>
+    <div className="m-5">
+      <h1 className="text-gray-900 font-bold text-xl">{title}</h1>
+      <p className="text-gray-700">{secondTitle}</p>
+      <p className="text-gray-600">{period}</p>
+      <div className="mt-4 flex">
+        {techs.map((tech) => (
+          <img
+            src={tech.iconLink}
+            className="w-8 mx-2 hover:opacity-75"
+            title={tech.iconTitle}
+          ></img>
+        ))}
       </div>
-      <div>
-        <h1 className="text-gray-900 font-bold text-xl">{title}</h1>
-        <p className="text-gray-700">{secondTitle}</p>
-        <p>{description}</p>
-        <div className="mt-4 flex">
-          {techs.map((tech) => (
-            <img
-              src={tech.iconLink}
-              className="w-8 mx-2 hover:opacity-75"
-              title={tech.iconTitle}
-            ></img>
-          ))}
-        </div>
-      </div>
+      <p className="mt-4">{description}</p>
+      {snap !== undefined ? (
+        <img src={snap} alt="appSnap" className="w-2/5 mt-5"></img>
+      ) : (
+        <></>
+      )}
     </div>
   );
 }
