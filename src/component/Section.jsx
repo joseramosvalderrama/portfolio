@@ -11,6 +11,7 @@ export default function Section(props) {
           secondTitle={card.secondTitle}
           period={card.period}
           description={card.description}
+          techs={card.techs}
         />
       ))}
     </div>
