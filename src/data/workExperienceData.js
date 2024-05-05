@@ -4,7 +4,7 @@ const workExperienceData = [
     secondTitle: "Concentrio",
     period: "SEP 2022 - Now",
     description:
-      "Working for a German startup where we are building software twins from vehicles code base. This product helps car companies to have a better understanding of their highly connected systems.",
+      "I am currently employed at a pioneering German startup focused on the development of software twins derived from vehicle code bases. This cutting-edge product serves as a vital tool for automotive companies, providing invaluable insights into their intricately connected systems.",
     techs: [
       {
         iconLink: "https://devicon-website.vercel.app/api/spring/original.svg",
@@ -38,7 +38,7 @@ const workExperienceData = [
     secondTitle: "GMV",
     period: "NOV 2021 - SEP 2022",
     description:
-      "GMV is one of the biggest engineer companies from Spain. Here, I was in charge of developing and testing part of Galileo software for defense purposes.",
+      "At GMV, a prominent engineering firm in Spain, I held a key role in the development and rigorous testing of components within the Galileo software suite, utilized for defense applications.",
     techs: [
       {
         iconLink: "https://devicon-website.vercel.app/api/spring/original.svg",
@@ -60,7 +60,7 @@ const workExperienceData = [
     secondTitle: "Telefonica",
     period: "NOV 2020 - NOV 2021",
     description:
-      "Telefonica is the biggest tech company from Spain. Here, I could take part into an exciting project developed mainly using Salesforce. My team needed to develop an app for internal sales engineers, so they could calculate the clients fees.",
+      "At Telefonica, Spain's leading technology company, I contributed to a dynamic project primarily leveraging Salesforce technology. My responsibilities included spearheading the development of an application tailored for internal sales engineers, facilitating streamlined calculation of client fees.",
     techs: [
       {
         iconLink:

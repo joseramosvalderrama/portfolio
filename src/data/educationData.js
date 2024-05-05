@@ -4,8 +4,16 @@ const educationData = [
     secondTitle: "Rey Juan Carlos",
     period: "2021 - 2022",
     description:
-      "This master is essential for learning the last web technologies from a backend and devops perspective. It was really practical as we needed to make small projects with everything we were learning. We put a lot of focus in good practices.",
+      "This master's program serves as a vital conduit for mastering the latest web technologies, with a keen focus on backend development and DevOps principles. Emphasizing practical application, the curriculum is designed to reinforce learning through the creation of small-scale projects that encompass the entirety of acquired knowledge. Throughout the program, a strong emphasis is placed on instilling best practices to ensure proficiency in industry standards.",
     techs: [
+      {
+        iconLink: "https://devicon-website.vercel.app/api/spring/original.svg",
+        iconTitle: "Spring boot",
+      },
+      {
+        iconLink: "https://devicon-website.vercel.app/api/nodejs/original.svg",
+        iconTitle: "NodeJS",
+      },
       {
         iconLink: "https://devicon-website.vercel.app/api/docker/original.svg",
         iconTitle: "Docker",
@@ -22,12 +30,28 @@ const educationData = [
     ],
   },
   {
-    title: "Computer Science Bachelor",
+    title: "Software Engineer Bachelor",
     secondTitle: "Technical University of Madrid",
     period: "2016 - 2021",
     description:
-      "Technical University of Madrid is a really well-known university where any kind of engineer could be studied. Here, I gave my first steps as a Software Engineer. It was very focused on theoretical stuff: oriented object programming, algorithms, maths, physics, data strutures...",
-    techs: [],
+      "As a student at the prestigious Technical University of Madrid, renowned for its comprehensive engineering programs, I embarked on my journey into the field of software engineering. The curriculum provided a strong foundation in theoretical principles, covering essential topics such as object-oriented programming, algorithms, mathematics, physics, and data structures.",
+    techs: [
+      {
+        iconLink:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+        iconTitle: "Java",
+      },
+      {
+        iconLink:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+        iconTitle: "C++",
+      },
+      {
+        iconLink:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+        iconTitle: "Git",
+      },
+    ],
   },
 ];
 export default educationData;

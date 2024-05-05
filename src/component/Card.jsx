@@ -16,7 +16,7 @@ export default function Card(props) {
       </div>
       <p className="mt-4">{description}</p>
       {snap !== undefined ? (
-        <img src={snap} alt="appSnap" className="w-2/5 mt-5"></img>
+        <img src={snap} alt="appSnap" className="max-h-96 mt-5"></img>
       ) : (
         <></>
       )}
