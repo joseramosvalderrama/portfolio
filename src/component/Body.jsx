@@ -6,7 +6,7 @@ import sideProjectData from "../data/sideProjectData";
 export default function Body() {
   return (
     <div className="bg-gray-50 mt-10">
-      <div className="flex flex-row">
+      <div className="flex flex-row flex-wrap">
         <div className="basis-1/2">
           <Section title="Work experience" cardList={workExperienceData} />
         </div>

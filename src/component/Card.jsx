@@ -5,11 +5,11 @@ export default function Card(props) {
       <h1 className="text-gray-900 font-bold text-xl">{title}</h1>
       <p className="text-gray-700">{secondTitle}</p>
       <p className="text-gray-600">{period}</p>
-      <div className="mt-4 flex">
+      <div className="mt-4 flex flex-wrap">
         {techs.map((tech) => (
           <img
             src={tech.iconLink}
-            className="w-8 mx-2 hover:opacity-75"
+            className="w-8 mx-2 my-1 hover:opacity-75"
             title={tech.iconTitle}
           ></img>
         ))}
