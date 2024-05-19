@@ -7,10 +7,10 @@ export default function Body() {
   return (
     <div className="bg-gray-50 mt-10">
       <div className="flex flex-row flex-wrap">
-        <div className="flex-grow w-full sm:min-w-[200px] sm:max-w-[900px]">
+        <div className="flex-grow w-full lg:basis-1/2">
           <Section title="Work experience" cardList={workExperienceData} />
         </div>
-        <div className="flex-grow w-full sm:min-w-[200px] sm:max-w-[900px]">
+        <div className="flex-grow w-full lg:basis-1/2">
           <Section title="Education" cardList={educationData} />
         </div>
       </div>
